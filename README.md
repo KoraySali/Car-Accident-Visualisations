@@ -42,7 +42,7 @@ The marker cluster maps are produced for both icy and foggy conditions.
 To ensure the generated visualizations are accessible outside the code environment, the code saves them as HTML files.
 Four files are produced: 'cluster_ice_map.html', 'cluster_fog_map.html', 'heatmap_ice.html', and 'heatmap_fog.html'. These files can be shared, embedded in reports, or used for interactive exploration.
 
-!(https://github.com/KoraySali/Car-Accident-Visualisations/blob/master/Number%20of%20accidents%20ice%20vs%20fog.png?raw=true)
+![](https://github.com/KoraySali/Car-Accident-Visualisations/blob/master/Number%20of%20accidents%20ice%20vs%20fog.png?raw=true)
 
 ## Summary:
 
