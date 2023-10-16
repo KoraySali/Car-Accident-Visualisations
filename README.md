@@ -12,6 +12,7 @@ The main dataset, containing road accident records, is loaded into a pandas Data
 ### Data Preprocessing:
 
 # Missing Value Handling: 
+
 To ensure data quality, a check for missing values is executed using the .isnull().sum() method. The results, indicating the count of missing values for each column, are displayed for reference.
 
 * Data Cleansing:
@@ -25,20 +26,23 @@ The code applies a filter to segment the data into distinct subsets, focusing on
 
 ### Data Visualization:
 
-* Folium HeatMaps: Dynamic heatmaps are constructed using the Folium library to visualise the geographical distribution of accidents for both icy and foggy conditions.
+* Folium HeatMaps:
+Dynamic heatmaps are constructed using the Folium library to visualise the geographical distribution of accidents for both icy and foggy conditions.
 
 These heatmaps incorporate a time dimension, allowing viewers to explore how accident patterns evolve over time, especially in relation to varying speed limits. This is achieved by employing the HeatMapWithTime plugin from Folium.
 
-* Marker Clustering: Another visualization technique involves marker clustering. This method groups accidents based on their geographical proximity, thus creating clusters.
+* Marker Clustering:
+Another visualization technique involves marker clustering. This method groups accidents based on their geographical proximity, thus creating clusters.
 
 Each marker is assigned a distinct size and colour, corresponding to the accident's severity. Red markers represent accidents with the highest severity (Level 1), yellow for Level 2, and blue for lower severity levels.
 
 The marker cluster maps are produced for both icy and foggy conditions.
 
 * Exporting Visualizations:
-
 To ensure the generated visualizations are accessible outside the code environment, the code saves them as HTML files.
 Four files are produced: 'cluster_ice_map.html', 'cluster_fog_map.html', 'heatmap_ice.html', and 'heatmap_fog.html'. These files can be shared, embedded in reports, or used for interactive exploration.
+
+!(https://github.com/KoraySali/Car-Accident-Visualisations/blob/master/Number%20of%20accidents%20ice%20vs%20fog.png?raw=true)
 
 ## Summary:
 
